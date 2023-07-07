@@ -28,7 +28,7 @@ public class PlayerPositionHandler : MonoBehaviour
     public void CheckpointWallActive(GameObject wall)
     {
         //Debug.Log("name="+ wall.gameObject.transform.GetChild(0).gameObject.name);
-        wall.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        wall.gameObject.SetActive(true);
     }
 
     //berguna untuk ketika Player Menabrak Checkpoint

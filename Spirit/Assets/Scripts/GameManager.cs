@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public bool isPaused;
-
+    
     private void Awake()
     {
         if(Instance == null)
@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }else
         {
-            Destroy(Instance);
+            Destroy(gameObject);
         }
     }
 
@@ -83,5 +83,16 @@ public class GameManager : MonoBehaviour
         SaveLevel();
     }
 
+    #endregion
+
+    #region Panel Management Data
+    public bool isStart;
+    #endregion
+
+    #region Quit button
+    public void Quit()
+    {
+        Application.Quit();
+    }
     #endregion
 }

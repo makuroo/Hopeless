@@ -6,12 +6,12 @@ namespace BinusNamespace
 {
     public class VerticalMovement : MonoBehaviour
     {
-
+        
         //public float distanceLow, distanceHigh, speedLow, speedHigh;
-        static float t = 0.0f;
+        [SerializeField]private float t = 0.0f;
         public float distance, speed, timeStart;
         private float originalPosY;
-        bool isRotate = false;
+        [SerializeField] private float playSFXTreshold;
 
         void Start()
         {
@@ -19,12 +19,14 @@ namespace BinusNamespace
 
         }
 
-        float a;
-
         void Update()
         {
             transform.position = new Vector3(transform.position.x, originalPosY + Mathf.Sin(t) * distance, transform.position.z);
             t += speed * Time.deltaTime;
+            if(transform.position.y < playSFXTreshold && GetComponent<AudioSource>()!=null && GetComponent<AudioSource>().isPlaying == false)
+            {
+                GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
+            }
         }
     }
 }

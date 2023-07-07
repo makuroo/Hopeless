@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e75533db0c76a32449348b01ce10f900, type: 3}
   m_Name: PlayerData
   m_EditorClassIdentifier: Assembly-CSharp::NewBehaviourScript
-  position: {x: 0, y: 0}
-  playerInitialPosition: {x: -5.7, y: -2.76}
+  position: {x: 12.35, y: -1.0515668}
+  playerInitialPosition: {x: -8.06, y: -2.76}
