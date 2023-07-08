@@ -645,6 +645,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 615372528}
     m_Modifications:
+    - target: {fileID: 3403745174048117441, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1664145991}
+    - target: {fileID: 3403745174048117441, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1664145999}
     - target: {fileID: 3403745174048117442, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
       propertyPath: initialPosition.x
       value: 12.94
@@ -1536,6 +1544,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 615372528}
     m_Modifications:
+    - target: {fileID: 3403745174048117441, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1664145991}
+    - target: {fileID: 3403745174048117441, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1664145999}
     - target: {fileID: 3403745174048117442, guid: fda64a276b5a2574c940f2f07e13e6d6, type: 3}
       propertyPath: initialPosition.x
       value: 26.54
@@ -3378,6 +3394,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isGameManager: 0
 --- !u!114 &1201467120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3850,6 +3867,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isGameManager: 0
 --- !u!4 &1363678750 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3837885826308697577, guid: f71bad1bbb59a414a94b245be0f11837, type: 3}
@@ -4066,6 +4084,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Traap Punch
       objectReference: {fileID: 0}
+    - target: {fileID: 3837885826308697576, guid: f71bad1bbb59a414a94b245be0f11837, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1664145991}
+    - target: {fileID: 3837885826308697576, guid: f71bad1bbb59a414a94b245be0f11837, type: 3}
+      propertyPath: OnTrigger.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1664145999}
     - target: {fileID: 3837885826308697577, guid: f71bad1bbb59a414a94b245be0f11837, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -4674,6 +4700,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isGameManager: 0
 --- !u!114 &1664145999
 MonoBehaviour:
   m_ObjectHideFlags: 0

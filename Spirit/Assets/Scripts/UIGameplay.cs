@@ -19,8 +19,10 @@ public class UIGameplay : MonoBehaviour
         buttonMenu.onClick.AddListener(() => GameManager.Instance.ChangeScene(sceneIndex));
         buttonPause.onClick.AddListener(HandleButtonClick);
         buttonResume.onClick.AddListener(HandleButtonClick);
-        //if(buttonQuit!=null)
-        //    buttonQuit.onClick.AddListener(()=>GameManager.Instance.Quit());
+        if (buttonQuit != null)
+        {
+            buttonQuit.onClick.AddListener(() => GameManager.Instance.Quit());
+        }
     }
 
     private void HandleButtonClick()
